@@ -8,7 +8,7 @@ const Counter2 = () => {
 	}
 
 	return (
-		<div>
+		<div className="counter text-center my-5">
 			<div>Result: {count2}</div>
 			<button onClick={incrementCount}> x10 </button>
 		</div>

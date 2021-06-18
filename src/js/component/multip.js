@@ -7,7 +7,7 @@ const Multip = () => {
     const[times, setTimes]= useState(2);
    // console.log("run");
     return(
-        <div className="multip">
+        <div className="multip text-center my-5">
             <div>Result: {times} loves</div>
             <button onClick={() =>setTimes(times *2)}> Multipli x 2 </button>
             <button onClick={() =>setTimes(times /2)}> Division / </button>

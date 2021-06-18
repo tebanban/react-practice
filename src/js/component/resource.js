@@ -14,7 +14,7 @@ const Resource = () => {
 	);
 
 	return (
-		<div className="resource">
+		<div className="resource text-center my-5 px-5">
 			<div>
 				<h3>Fetch-useEffect example</h3>
 				<button onClick={() => setResourcexType("posts")}>Posts</button>

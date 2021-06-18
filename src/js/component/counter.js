@@ -5,7 +5,7 @@ const Counter = () => {
 	//console.log(useState(0));
 
 	return (
-		<div className="counter">
+		<div className="counter text-center my-5">
 			<h3>Counter example</h3>
 			<h3>Result: {count} likes </h3>
 			<button onClick={() => setCount(count + 1)}> Add </button>
